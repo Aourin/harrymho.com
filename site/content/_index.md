@@ -1,20 +1,30 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
+title: Harry M Ho
+subtitle: ^^ That is my name
 image: /img/home-jumbotron.jpg
 blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+  heading: Why Harry Ho?
+  text: >-
+    Well, I guess it depends what you are looking for. Depending on what that
+    is, I may be a good fit for your ${FILL_IN_THE_BLANK}.
 intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
+  heading: What makes me tick?
+  text: >-
+    Cogs and gears hooked up to some electrical wire and a funnel for my
+    coffee. 
 products:
-    - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
-    - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
+  - image: /img/products-grid2.jpg
+    text: >-
+      I can drink coffee like a pro...grammer (programmer for those that cannot
+      visually remove the ellipsis. I forgot how to spell ellipsis, but I have
+      powerful google skills as well.
+  - image: /img/about-jumbotron.jpg
+    text: >-
+      I have no idea what that guy is doing in the photo, but I am probably good
+      at not doing what he is. Also, I am pretty good at sitting AND standing
+      (not at the same time, I am not that skilled yet).
 values:
-    heading: Our values
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
+  heading: My Values
+  text: One dollars.
 ---
 
