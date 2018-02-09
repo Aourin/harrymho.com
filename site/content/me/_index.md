@@ -6,7 +6,7 @@ blurb:
   heading: Why Harry Ho?
   text: >-
     Well, I guess it depends what you are looking for. Depending on what that
-    is, I may be a good fit for your ${FILL_IN_THE_BLANK}.
+    is, I may be a good fit for your ssss${FILL_IN_THE_BLANK}.
 intro:
   heading: What makes me tick?
   text: >-

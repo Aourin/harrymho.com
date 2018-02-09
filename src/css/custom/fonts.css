@@ -1,0 +1,12 @@
+
+.logo {
+    font-size: 1.6rem;
+}
+.logo-wrapper {
+    text-decoration: none;
+}
+
+.special {
+    font-weight: 700;
+    color: var(--special);
+}

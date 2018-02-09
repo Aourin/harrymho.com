@@ -2,11 +2,17 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
-{{ partial "short-text" .Params.blurb}}
+<div class="bg-grey-1 pv4">
+  <div class="flex-l mhn1-l ph3 center mw7">
+    <h2 class="f2 b lh-title mb2 w-40-l">Why Harry Ho?</h2>
+    <p class="w-60-l mb0">Well, I guess it depends what you are looking for. Depending on what that
+    is, I may be a good fit for your <span class="special">${FILL_IN_THE_BLANK}</span>.</p>
+  </div>
+</div>
 
 {{ partial "2-up" .Params }}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+<!-- {{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }} -->
 
 {{ partial "blog" . }}
 

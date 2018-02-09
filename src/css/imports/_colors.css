@@ -8,6 +8,10 @@
   color: --var(--highlight);
 }
 
+.special {
+  color: --var(--special);
+}
+
 .white {
   color: var(--white);
 }
