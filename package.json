@@ -1,7 +1,7 @@
 {
-  "name": "victor-hugo",
+  "name": "harrymho.com",
   "version": "1.0.0",
-  "description": "Victor Hugo is a Hugo boilerplate for creating truly epic websites!",
+  "description": "Harry Ho Website!",
   "main": "index.js",
   "scripts": {
     "hugo": "gulp hugo",
@@ -12,7 +12,7 @@
     "lint": "eslint src"
   },
   "author": "",
-  "license": "MIT",
+  "license": "",
   "dependencies": {
     "babel-eslint": "^6.1.2",
     "babel-loader": "^6.2.4",
