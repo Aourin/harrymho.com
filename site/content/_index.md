@@ -11,8 +11,8 @@ intro:
   heading: What makes me tick?
   text: >-
     Cogs and gears hooked up to some electrical wire and a funnel for my
-    coffee. 
-products:
+    coffee.
+tick:
   - image: /img/products-grid2.jpg
     text: >-
       I can drink coffee like a pro...grammer (programmer for those that cannot
@@ -27,4 +27,3 @@ values:
   heading: My Values
   text: One dollars.
 ---
-
