@@ -1,0 +1,185 @@
+body {
+    overflow-x: hidden;
+}
+#banner-main {
+    background-image: url('/img/home/banner.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:800px;
+    overflow: hidden;
+    background-position: center;
+    /* padding-bottom: 56.65%; */
+}
+.banner__content--low {
+    position: absolute;
+    bottom: 50px;
+}
+.pillar-divide {
+    display:inline-block;
+    float: right;
+}
+.pillar-divide .pillar-cap {
+    width: 52px;
+    height: 52px;
+    content: "";
+    display: inline-block;
+    margin: -52px 8px 49px;
+    border: 9px solid #9a9a9a61;
+}
+
+.pillar-divide .pillar-right {
+  width: 11px;
+  height: 67px;
+  background: #636363a8;
+  content: "";
+  display: inline-block;
+  margin: -50px 48px 10px;
+  position: absolute;
+}
+
+.pillar-divide .pillar-center {
+    width: 11px;
+    height: 160px;
+    background: var(--primary-shadow);
+    content: "";
+    display: inline-block;
+    margin: -50px 28px 10px;
+    position: absolute;
+    
+}
+
+.pillar-divide .pillar-left {
+    width: 11px;
+    height: 300px;
+    background: #4c4c4c9c;
+    content: "";
+    display: inline-block;
+    margin: -49px 8px 10px;
+    position: absolute;
+}
+.banner__content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.banner-intro {
+    margin-right:5%;
+}
+.banner-intro__content {
+    text-align: right;
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.banner-intro__title {
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 90px;
+}
+
+.banner-intro__subtitle {
+    font-size: 24px;
+    float: right;
+    color: var(--secondary);
+    margin-top: 172px;
+    margin-left: -41px;
+    text-transform:uppercase;
+}
+.banner-intro:before {
+    content: "";
+    width: 100%;
+    height: 414px;
+    left: 0;
+    display: block;
+    positioN: absolute;
+    z-index: 0;
+    margin-top: -70px;
+    z-index: -1;
+}
+.banner-intro__title {
+    font-weight: 900;
+    color: #ffffff;
+}
+.banner-intro__title .line {
+    line-height: 100%;
+}
+
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+        .banner-intro:before {
+            background: #00000070;
+        }
+        .banner-intro__title {
+            font-size: 50px;
+        }
+        .banner-intro__subtitle {
+            font-size: 20px;
+            padding: 5px 10px;
+            margin-top: 178px;
+        }
+    }
+    @media (max-device-width: 768px) {
+        .pillar-divide {
+            display: inline-block;
+            float: none;
+            right: 0;
+            position: absolute;
+            margin-top: -120px;
+        }
+        .banner-intro__content{
+            display: block;
+            margin-right: 50px;
+        }
+        .banner-intro__title {
+            font-size: 60px;
+        }
+        .banner-intro__subtitle {
+            padding: 5px 10px;
+            text-align: right;
+            font-size: 20px;
+            float: right;
+            margin-top: 72px;
+            margin-right: 47px;
+            text-transform: uppercase;
+        }
+    }
+
+    @media (min-width: 1024px) and (max-device-width: 1600px) {
+        .banner-intro:before {
+            background: #00000070;
+        }
+        .banner-intro__title {
+            font-size: 50px;
+        }
+        .banner-intro__subtitle {
+            font-size: 20px;
+        }
+    }
+    
+    @media (min-width: 1920px) {
+        #banner-main {
+            height: 1080px;
+        }
+    }
+    /* iPads (landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
+    }
+    
+    /* iPads (portrait) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
+    }
+    /**********
+    iPad 3
+    **********/
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }

@@ -61,5 +61,8 @@
 
 @import './custom/fonts';
 
+@import './components/banner'; 
+@import './components/nav'; 
+
 /* Uncomment out the line below to help debug layout issues */
 /*@import './imports/_debug';*/
