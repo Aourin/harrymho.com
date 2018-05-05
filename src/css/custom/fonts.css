@@ -4,8 +4,13 @@
 }
 .logo-wrapper {
     text-decoration: none;
+    padding: 1rem;
 }
-
+@media (max-width: 768px) {
+    .logo-wrapper {
+        padding: 0.25rem 0.75rem;
+    }
+}
 .special {
     font-weight: 700;
     color: var(--special);
